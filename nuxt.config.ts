@@ -12,7 +12,7 @@ export default defineNuxtConfig({
 
   ssr: false,
 
-  app: {
-    baseURL: '/barbershop/'
+  vite: {
+    base: '/barbershop/'
   }
 })
