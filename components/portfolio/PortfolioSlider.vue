@@ -2,28 +2,28 @@
 const mySwiper = ref(null)
 const images = ref<{ src: string }[]>([
   {
-    src: '/img/portfolio-big.png'
+    src: `${window.location}/img/portfolio-big.png`
   },
   {
-    src: '/img/portfolio-small.png'
+    src: `${window.location}/img/portfolio-small.png`
   },
   {
-    src: '/img/portfolio-big.png'
+    src: `${window.location}/img/portfolio-big.png`
   },
   {
-    src: '/img/portfolio-small.png'
+    src: `${window.location}/img/portfolio-small.png`
   },
   {
-    src: '/img/portfolio-big.png'
+    src: `${window.location}/img/portfolio-big.png`
   },
   {
-    src: '/img/portfolio-small.png'
+    src: `${window.location}/img/portfolio-small.png`
   },
   {
-    src: '/img/portfolio-big.png'
+    src: `${window.location}/img/portfolio-big.png`
   },
   {
-    src: '/img/portfolio-small.png'
+    src: `${window.location}/img/portfolio-small.png`
   },
 ])
 
